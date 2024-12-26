@@ -7,35 +7,26 @@
 
 static void (*g_logger)(const char *) = NULL;
 
-void sensor_db_run(sbuffer_t *sbuf, FILE *fp_csv, void (*logger_func)(const char *))
+void sensor_db_run(sbuffer_t *s, FILE *fp, void (*f)(const char *))
 {
-    g_logger = logger_func;
-    // CSVヘッダ行など書いてもよい
-    // fprintf(fp_csv, "sensor_id,value,timestamp\n");
-
+    g_logger = f;
     while (1)
     {
-        sensor_data_t data;
-        int res = sbuffer_remove_reader(sbuf, &data);
-        if (res == SBUFFER_NO_DATA)
+        sensor_data_t d;
+        int r = sbuffer_remove_reader(s, &d);
+        if (r == SBUFFER_NO_DATA)
         {
-            // データが無い => 適当にsleep
-            usleep(200000);
+            usleep(10000);
             continue;
         }
-        else if (res == SBUFFER_STOP_THREAD)
-        {
-            // sbuffer 側で終了指示
+        else if (r == SBUFFER_STOP_THREAD)
             break;
-        }
-        else if (res == SBUFFER_SUCCESS)
+        else if (r == SBUFFER_SUCCESS)
         {
-            // CSVへ書き込み
-            fprintf(fp_csv, "%u,%.2f,%ld\n", data.id, data.value, (long)data.ts);
-
-            // ログ出力 (例)
+            fprintf(fp, "%u,%.2f,%ld\n", d.id, d.value, (long)d.ts);
+            fflush(fp);
             char msg[128];
-            snprintf(msg, sizeof(msg), "Data insertion from sensor %u succeeded.", data.id);
+            snprintf(msg, sizeof(msg), "Data insertion from sensor %u succeeded.", d.id);
             g_logger(msg);
         }
     }
