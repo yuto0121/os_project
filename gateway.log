@@ -1,40 +1,44 @@
-1 1735249251 A new data.csv file has been created.
-2 1735249254 Sensor node 15 has opened a new connection
-3 1735249254 Data insertion from sensor 15 succeeded.
-4 1735249255 Sensor node 21 has opened a new connection
-5 1735249255 Sensor node 21 reports it’s too hot (avg temp = 20.02)
-6 1735249257 Data insertion from sensor 15 succeeded.
-7 1735249257 Connmgr: max_clients reached, listening ended.
-8 1735249257 Sensor node 37 has opened a new connection
-9 1735249258 Data insertion from sensor 15 succeeded.
-10 1735249258 Data insertion from sensor 15 succeeded.
-11 1735249258 Sensor node 21 reports it’s too hot (avg temp = 20.22)
-12 1735249258 Data insertion from sensor 21 succeeded.
-13 1735249259 Data insertion from sensor 15 succeeded.
-14 1735249259 Data insertion from sensor 15 succeeded.
-15 1735249259 Data insertion from sensor 37 succeeded.
-16 1735249260 Sensor node 15 reports it’s too hot (avg temp = 20.08)
-17 1735249260 Data insertion from sensor 15 succeeded.
-18 1735249261 Sensor node 15 reports it’s too hot (avg temp = 20.30)
-19 1735249261 Sensor node 15 reports it’s too hot (avg temp = 20.30)
-20 1735249261 Sensor node 21 reports it’s too hot (avg temp = 20.15)
-21 1735249261 Data insertion from sensor 37 succeeded.
-22 1735249261 Data insertion from sensor 37 succeeded.
-23 1735249262 Sensor node 15 reports it’s too hot (avg temp = 20.55)
-24 1735249263 Data insertion from sensor 15 succeeded.
-25 1735249263 Data insertion from sensor 15 succeeded.
-26 1735249263 Sensor node 37 reports it’s too hot (avg temp = 20.01)
-27 1735249264 Sensor node 15 reports it’s too hot (avg temp = 20.42)
-28 1735249264 Sensor node 21 reports it’s too hot (avg temp = 20.23)
-29 1735249264 Data insertion from sensor 21 succeeded.
-30 1735249265 Data insertion from sensor 15 succeeded.
-31 1735249265 Data insertion from sensor 15 succeeded.
-32 1735249265 Data insertion from sensor 37 succeeded.
-33 1735249265 Data insertion from sensor 37 succeeded.
-34 1735249266 Data insertion from sensor 15 succeeded.
-35 1735249266 Data insertion from sensor 15 succeeded.
-36 1735249267 Sensor node 15 reports it’s too hot (avg temp = 20.28)
-37 1735249267 Sensor node 21 reports it’s too hot (avg temp = 20.36)
-38 1735249268 Sensor node 15 reports it’s too hot (avg temp = 20.32)
-39 1735249268 Data insertion from sensor 15 succeeded.
-40 1735249268 Sensor node 37 has closed the connection
+1 2024-12-26 23:42:13 A new data.csv file has been created.
+2 2024-12-26 23:42:16 Sensor node 15 has opened a new connection
+3 2024-12-26 23:42:16 Sensor node 15 reports it’s too hot (avg temp = 20.23)
+4 2024-12-26 23:42:17 Data insertion from sensor 15 succeeded.
+5 2024-12-26 23:42:17 Data insertion from sensor 15 succeeded.
+6 2024-12-26 23:42:17 Sensor node 21 has opened a new connection
+7 2024-12-26 23:42:17 Sensor node 21 reports it’s too hot (avg temp = 20.16)
+8 2024-12-26 23:42:18 Sensor node 15 reports it’s too hot (avg temp = 20.27)
+9 2024-12-26 23:42:19 Data insertion from sensor 15 succeeded.
+10 2024-12-26 23:42:19 Data insertion from sensor 15 succeeded.
+11 2024-12-26 23:42:19 Connmgr: max_clients reached, listening ended.
+12 2024-12-26 23:42:19 Sensor node 37 reports it’s too hot (avg temp = 20.04)
+13 2024-12-26 23:42:20 Sensor node 15 reports it’s too hot (avg temp = 20.03)
+14 2024-12-26 23:42:20 Data insertion from sensor 15 succeeded.
+15 2024-12-26 23:42:20 Data insertion from sensor 21 succeeded.
+16 2024-12-26 23:42:20 Data insertion from sensor 21 succeeded.
+17 2024-12-26 23:42:21 Sensor node 15 reports it’s too hot (avg temp = 20.12)
+18 2024-12-26 23:42:21 Sensor node 37 reports it’s too hot (avg temp = 20.10)
+19 2024-12-26 23:42:22 Data insertion from sensor 15 succeeded.
+20 2024-12-26 23:42:22 Data insertion from sensor 15 succeeded.
+21 2024-12-26 23:42:23 Data insertion from sensor 15 succeeded.
+22 2024-12-26 23:42:23 Data insertion from sensor 15 succeeded.
+23 2024-12-26 23:42:23 Data insertion from sensor 37 succeeded.
+24 2024-12-26 23:42:23 Data insertion from sensor 37 succeeded.
+25 2024-12-26 23:42:24 Sensor node 15 reports it’s too hot (avg temp = 20.52)
+26 2024-12-26 23:42:24 Data insertion from sensor 15 succeeded.
+27 2024-12-26 23:42:25 Sensor node 15 reports it’s too hot (avg temp = 20.54)
+28 2024-12-26 23:42:25 Sensor node 37 reports it’s too hot (avg temp = 20.31)
+29 2024-12-26 23:42:25 Data insertion from sensor 37 succeeded.
+30 2024-12-26 23:42:26 Sensor node 15 reports it’s too hot (avg temp = 20.39)
+31 2024-12-26 23:42:26 Data insertion from sensor 21 succeeded.
+32 2024-12-26 23:42:26 Data insertion from sensor 21 succeeded.
+33 2024-12-26 23:42:27 Sensor node 15 reports it’s too hot (avg temp = 20.26)
+34 2024-12-26 23:42:27 Data insertion from sensor 15 succeeded.
+35 2024-12-26 23:42:27 Sensor node 37 reports it’s too hot (avg temp = 20.18)
+36 2024-12-26 23:42:28 Data insertion from sensor 15 succeeded.
+37 2024-12-26 23:42:28 Data insertion from sensor 15 succeeded.
+38 2024-12-26 23:42:29 Data insertion from sensor 15 succeeded.
+39 2024-12-26 23:42:29 Data insertion from sensor 15 succeeded.
+40 2024-12-26 23:42:29 Data insertion from sensor 37 succeeded.
+41 2024-12-26 23:42:29 Data insertion from sensor 37 succeeded.
+42 2024-12-26 23:42:30 Sensor node 15 reports it’s too hot (avg temp = 20.75)
+43 2024-12-26 23:42:30 Sensor node 37 has closed the connection
+44 2024-12-26 23:42:30 Sensor node 21 has closed the connection

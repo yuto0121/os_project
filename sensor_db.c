@@ -1,3 +1,7 @@
+/**
+ * \author Yuto Yamaguchi
+ */
+
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
@@ -27,8 +31,8 @@ void sensor_db_run(sbuffer_t *s, FILE *fp, void (*f)(const char *))
             struct tm *tm_info;
             char time_str[26];
             tm_info = localtime(&(d.ts));
-            strftime(time_str, 26, "%Y-%m-%d %H:%M:%S", tm_info);
-            fprintf(fp, "%u,%.2f,%ld\n", d.id, d.value, (long)d.ts);
+            strftime(time_str, sizeof(time_str), "%Y-%m-%d %H:%M:%S", tm_info);
+            fprintf(fp, "%u,%.2f,%s\n", d.id, d.value, time_str);
             fflush(fp);
             char msg[128];
             snprintf(msg, sizeof(msg), "Data insertion from sensor %u succeeded.", d.id);

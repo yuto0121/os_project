@@ -1,3 +1,7 @@
+/**
+ * \author Yuto Yamaguchi
+ */
+
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
@@ -55,7 +59,11 @@ static void log_process_loop(void)
             time(&now);
             buffer[strcspn(buffer, "\r\n")] = 0;
 
-            fprintf(fp_log, "%ld %ld %s\n", sequence_num, (long)now, buffer);
+            struct tm *tm_info;
+            char time_str[26];
+            tm_info = localtime(&now);
+            strftime(time_str, sizeof(time_str), "%Y-%m-%d %H:%M:%S", tm_info);
+            fprintf(fp_log, "%ld %s %s\n", sequence_num, time_str, buffer);
             fflush(fp_log);
             sequence_num++;
         }
