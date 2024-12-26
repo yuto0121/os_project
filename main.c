@@ -1,3 +1,4 @@
+#define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -13,8 +14,6 @@
 #include "datamgr.h"
 #include "sensor_db.h"
 #include "sbuffer.h"
-
-#define _GNU_SOURCE
 
 static int g_pipefd[2];
 pthread_mutex_t g_log_pipe_mutex = PTHREAD_MUTEX_INITIALIZER;
