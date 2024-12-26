@@ -1,32 +1,33 @@
-1 1735225090 A new data.csv file has been created.
-2 1735225093 Sensor node 15 has opened a new connection
-3 1735225093 Data insertion from sensor 15 succeeded.
-4 1735225093 Data insertion from sensor 15 succeeded.
-5 1735225095 Sensor node 21 has opened a new connection
-6 1735225095 Sensor node 21 reports it’s too hot (avg temp = 20.23)
-7 1735225097 Connmgr: max_clients reached, listening ended.
-8 1735225097 Connection manager thread finished
-9 1735225097 Sensor node 37 reports it’s too hot (avg temp = 20.10)
-10 1735225099 Data insertion from sensor 37 succeeded.
-11 1735225099 Data insertion from sensor 37 succeeded.
-12 1735225101 Data insertion from sensor 21 succeeded.
-13 1735225101 Data insertion from sensor 21 succeeded.
-14 1735225101 Sensor node 37 reports it’s too hot (avg temp = 20.30)
-15 1735225101 Data insertion from sensor 15 succeeded.
-16 1735225101 Data insertion from sensor 15 succeeded.
-17 1735225103 Sensor node 37 reports it’s too hot (avg temp = 20.36)
-18 1735225103 Data insertion from sensor 37 succeeded.
-19 1735225104 Sensor node 21 reports it’s too hot (avg temp = 20.08)
-20 1735225104 Data insertion from sensor 21 succeeded.
-21 1735225104 Data insertion from sensor 15 succeeded.
-22 1735225104 Data insertion from sensor 15 succeeded.
-23 1735225105 Data insertion from sensor 37 succeeded.
-24 1735225105 Data insertion from sensor 37 succeeded.
-25 1735225105 Data insertion from sensor 15 succeeded.
-26 1735225105 Data insertion from sensor 15 succeeded.
-27 1735225107 Data insertion from sensor 37 succeeded.
-28 1735225107 Data insertion from sensor 37 succeeded.
-29 1735225107 Data insertion from sensor 15 succeeded.
-30 1735225107 Data insertion from sensor 15 succeeded.
-31 1735225108 Sensor node 21 has closed the connection
-32 1735225108 Sensor node 15 has closed the connection
+1 1735248673 A new data.csv file has been created.
+2 1735248676 Sensor node 15 has opened a new connection
+3 1735248677 Sensor node 15 reports it’s too hot (avg temp = 20.15)
+4 1735248677 Sensor node 21 has opened a new connection
+5 1735248678 Sensor node 15 reports it’s too hot (avg temp = 20.29)
+6 1735248679 Sensor node 15 reports it’s too hot (avg temp = 20.11)
+7 1735248679 Connmgr: max_clients reached, listening ended.
+8 1735248679 Sensor node 37 has opened a new connection
+9 1735248679 Data insertion from sensor 37 succeeded.
+10 1735248679 Data insertion from sensor 37 succeeded.
+11 1735248680 Sensor node 15 reports it’s too hot (avg temp = 20.16)
+12 1735248680 Data insertion from sensor 15 succeeded.
+13 1735248680 Data insertion from sensor 21 succeeded.
+14 1735248680 Data insertion from sensor 21 succeeded.
+15 1735248681 Sensor node 15 reports it’s too hot (avg temp = 20.24)
+16 1735248681 Sensor node 37 reports it’s too hot (avg temp = 20.01)
+17 1735248682 Data insertion from sensor 15 succeeded.
+18 1735248682 Data insertion from sensor 15 succeeded.
+19 1735248683 Data insertion from sensor 15 succeeded.
+20 1735248683 Data insertion from sensor 15 succeeded.
+21 1735248684 Data insertion from sensor 15 succeeded.
+22 1735248685 Sensor node 15 reports it’s too hot (avg temp = 20.06)
+23 1735248686 Sensor node 21 reports it’s too hot (avg temp = 20.00)
+24 1735248686 Data insertion from sensor 21 succeeded.
+25 1735248687 Data insertion from sensor 15 succeeded.
+26 1735248687 Data insertion from sensor 15 succeeded.
+27 1735248688 Data insertion from sensor 15 succeeded.
+28 1735248688 Data insertion from sensor 15 succeeded.
+29 1735248689 Sensor node 15 reports it’s too hot (avg temp = 20.34)
+30 1735248689 Sensor node 21 reports it’s too hot (avg temp = 20.04)
+31 1735248689 Sensor node 21 reports it’s too hot (avg temp = 20.04)
+32 1735248690 Sensor node 15 reports it’s too hot (avg temp = 20.54)
+33 1735248690 Sensor node 21 has closed the connection
