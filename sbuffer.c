@@ -1,10 +1,10 @@
+#define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
 #include <string.h>
 #include "sbuffer.h"
 
-#define _GNU_SOURCE
 #define NUM_READERS 2
 
 typedef struct sbuffer_node

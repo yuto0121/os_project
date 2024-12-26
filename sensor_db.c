@@ -1,11 +1,10 @@
+#define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <time.h>
 #include "sensor_db.h"
 #include "sbuffer.h"
-
-#define _GNU_SOURCE
 
 static void (*g_logger)(const char *) = NULL;
 
