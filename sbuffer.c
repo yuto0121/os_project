@@ -4,6 +4,7 @@
 #include <string.h>
 #include "sbuffer.h"
 
+#define _GNU_SOURCE
 #define NUM_READERS 2
 
 typedef struct sbuffer_node

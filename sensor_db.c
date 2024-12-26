@@ -5,6 +5,8 @@
 #include "sensor_db.h"
 #include "sbuffer.h"
 
+#define _GNU_SOURCE
+
 static void (*g_logger)(const char *) = NULL;
 
 void sensor_db_run(sbuffer_t *s, FILE *fp, void (*f)(const char *))

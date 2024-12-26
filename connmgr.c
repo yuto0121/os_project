@@ -1,3 +1,4 @@
+#define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -12,6 +13,7 @@
 
 #ifndef TIMEOUT
 #define TIMEOUT 5
+#define _GNU_SOURCE
 #endif
 
 static void (*g_logger)(const char *) = NULL;
